@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <h1>Movie Tickets Reservation System</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="formId" class="form-group">
+
+            <select class="form-control" id="movieName">
+              <option value="8">How to train your dragon</option>
+              <option value="8">Aquaman</option>
+              <option value="12">Glass</option>
+              <option value="12">Spider-man</option>
+            </select>
+
+            <select class="form-control" id="movieTime">
+              <option value="1">11 am</option>
+              <option value="1">1 pm</option>
+              <option value="3">5 pm</option>
+              <option value="3">8 pm</option>
+            </select>
+
+            <select class="form-control" id="age">
+              <option value="1">Over 65 years old</option>
+              <option value="2">Under 65 Years Old</option>
+            </select>
+
+            <button type="submit">Get Your Ticket !!</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="ticketPrice">
+        <p>Your ticket(s) cost: <span id="price"></span></p>
+
+      </div>
+    </div>
+  </body>
+</html>
